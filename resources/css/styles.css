@@ -56,7 +56,6 @@ table {
 
 
 /* CSS Body Begin */
-
 body {
 	font-family: "Helvetica", sans-serif;
 	font-size: 22px;
@@ -96,6 +95,9 @@ nav p{
 	padding-right: 20px;
 }
 
+nav a {
+	color: seashell;
+}
 
 
 
