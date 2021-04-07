@@ -74,7 +74,7 @@ body {
 }
 
 
-/* NAV BAR */
+/* Navigation Bar */
 header {
 	border-bottom: 1px solid seashell;
 	height: 69px;
@@ -96,7 +96,7 @@ text-align: right;
 flex-grow: 1;
 }
 
-nav a{
+nav p{
 	text-decoration: underline;
 	display: inline-block;
 	padding-right: 20px;
@@ -105,15 +105,13 @@ nav a{
 
 
 
-/* MAIN  */
+/* Main (All Sections) */
 main {
 	padding-top: 69px;
 	width: 1200px;
 	justify-content: center;
 	margin: 0 auto;
 }
-
-
 
 .flex-container {
 	display: flex;
@@ -124,12 +122,31 @@ main {
 
 
 
+ /* Headings */
+h2, h4 {
+	padding: 10px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+h4 {
+font-weight: bold;
+}
+
+
+
+
+
+
+/* Mission Section */
 #mission {
-	/*background-image: url("resources/images/img-myrtle-ave.jpg");
-	*/
 	height: 700px;
 	margin: auto;
 	background-image: url("../images/img-mission-background.jpg");
+	background-size: cover;
   background-color: black;
 	
 }
@@ -142,19 +159,11 @@ width: 100%;
 
 
 
-h2, h4 {
-	padding: 10px;
-}
-
-h2 {
-	font-weight: bold;
-	font-size: 1.5em;
-}
 
 
-h4 {
-font-weight: bold;
-}
+
+/*Tea of the Month Section */
+
 
 #tea-of-the-month .content {
 	width: 1000px;
@@ -166,7 +175,7 @@ font-weight: bold;
 	width: 320px;
 }
 
-.item a{
+.item p {
 	display: block;
 	text-align: center;
 	font-weight: bold;
@@ -177,4 +186,42 @@ font-weight: bold;
 	height: 200px;
 	display: block;
 	margin: 10px;
+}
+
+
+
+
+
+
+/*Locations Section */
+#locations {
+	padding-top: 70px;
+	margin-top: 70px;
+	background-image: url("../images/img-locations-background.jpg");
+	height: 500px;
+	
+}
+
+#locations .flex-container {
+	margin: auto;
+}
+
+.location-item {
+	display: inline-block;
+	margin: 20px 15px;
+	background-color: black;
+	width: 300px;
+	padding: 25px 0;
+	opacity: 1;
+}
+
+.location-item h3 {
+	font-weight: bold;
+	font-size: 1.15em;
+	padding-bottom: 5px;
+}
+
+.location-item p {
+padding-top: 30px;
+padding-bottom: 10px;
 }
