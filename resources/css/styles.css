@@ -1,7 +1,5 @@
 
-/* reseters */
-
-
+/* Reseters */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,7 +22,6 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -47,6 +44,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* Reseters End */
 
 
 
@@ -57,11 +55,7 @@ table {
 
 
 
-
-/* CSS */
-
-
-
+/* CSS Body Begin */
 
 body {
 	font-family: "Helvetica", sans-serif;
@@ -125,16 +119,14 @@ main {
  /* Headings */
 h2, h4 {
 	padding: 10px;
+	font-weight: bold;
 }
 
 h2 {
-	font-weight: bold;
 	font-size: 1.5em;
 }
 
-h4 {
-font-weight: bold;
-}
+
 
 
 
@@ -162,9 +154,7 @@ width: 100%;
 
 
 
-/*Tea of the Month Section */
-
-
+/* Tea of the Month Section */
 #tea-of-the-month .content {
 	width: 1000px;
 	padding-top: 69px;
@@ -193,7 +183,7 @@ width: 100%;
 
 
 
-/*Locations Section */
+/* Locations Section */
 #locations {
 	padding-top: 70px;
 	margin-top: 70px;
@@ -225,3 +215,31 @@ width: 100%;
 padding-top: 30px;
 padding-bottom: 10px;
 }
+
+
+
+
+
+/* Contacts Section */
+#contacts {
+	height:200px;
+	margin-top: 15px
+}
+
+#contacts h5 {
+	font-weight: bold;
+	padding: 30px;
+}
+
+
+
+
+
+/* Footer */
+footer {
+	margin-left: 20px;
+	text-align: left;
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+
