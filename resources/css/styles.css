@@ -63,15 +63,18 @@ table {
 
 
 
-html {
-	font-family: Helvetica, sans-serif;
+body {
+	font-family: "Helvetica", sans-serif;
 	font-size: 22px;
 	color: seashell;
 	background-color: black;
 	opacity: 0.9;
-	justify-content: center;
+	text-align: center;
+	width: 100%;
 }
 
+
+/* NAV BAR */
 header {
 	border-bottom: 1px solid seashell;
 	height: 69px;
@@ -80,6 +83,7 @@ header {
 	width: 100%;
 	align-items: center;
 	position: fixed;
+	background-color: black;
 }
 
 header img {
@@ -96,6 +100,81 @@ nav a{
 	text-decoration: underline;
 	display: inline-block;
 	padding-right: 20px;
+}
 
+
+
+
+/* MAIN  */
+main {
+	padding-top: 69px;
+	width: 1200px;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+
+
+#mission {
+	/*background-image: url("resources/images/img-myrtle-ave.jpg");
+	*/
+	height: 700px;
+	margin: auto;
+	background-image: url("../images/img-mission-background.jpg");
+  background-color: black;
 	
+}
+
+#mission .content {
+margin: auto;
+background-color: black;
+width: 100%;
+}
+
+
+
+h2, h4 {
+	padding: 10px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+
+h4 {
+font-weight: bold;
+}
+
+#tea-of-the-month .content {
+	width: 1000px;
+	padding-top: 69px;
+}
+
+.item {
+	display: inline-block;
+	width: 320px;
+}
+
+.item a{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+
+.item img {
+	width: 300px;
+	height: 200px;
+	display: block;
+	margin: 10px;
 }
